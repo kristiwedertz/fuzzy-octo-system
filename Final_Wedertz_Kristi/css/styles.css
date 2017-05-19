@@ -1,0 +1,267 @@
+body{
+	background-color: #000000;
+	font-family: "filson-soft";
+}
+
+p{
+	line-height: 150%;
+	font-size: 12pt;
+}
+
+br{
+	line-height: 200%;
+}
+
+h2{
+	font-family: "industry-inc-stencil";
+}
+
+h3{
+	font-family: "filson-soft";
+}
+
+div{
+	/*border: 1px solid black;*/
+}
+
+.footer{
+
+	background-image: url('../images/linen80.jpg');
+	background-repeat: no-repeat;
+	width: 100%;
+
+}
+
+.container{
+	background-color: #fffcf2;
+	width: 100%;
+}
+
+.imgSizer {
+	width: 100%;
+	height: auto;
+}
+
+.industry{
+	font-family: "industry-inc-stencil";
+}
+
+.smIcon{
+	padding: 30px;
+}
+
+.youtube{
+	text-align: center;
+	padding: 10% 0;
+}
+
+.nav{
+	background-image: url('../images/linen80.jpg');
+	background-repeat: no-repeat;
+	font-family: "industry-inc-stencil";
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	font-size: 22pt;
+	vertical-align: bottom;
+	
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #742304;
+	/*color: #efa22f;*/
+	text-decoration: none;
+}
+
+.selected{
+	color: #742304;
+	text-decoration: none;
+}
+
+.logo{
+	z-index: 0;
+}
+
+.socialMedia{
+	text-align: center;
+	padding: 3% 0;
+}
+
+.address{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.slideshow{
+	padding: 0px;
+
+}
+
+.topLines{
+	margin-top: 80px;
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+}
+
+.jupiter{
+	margin-top: 10%;
+}
+
+
+.noPadding{
+	padding: 0px;
+}
+
+.redLine{
+	background-color: #742304;
+	height: 2px;
+	/*z-index: -2;*/
+	/*margin-top: 80px;*/
+}
+
+.creamLine{
+	background-color: #fffcf2;
+	height: 2px;
+	/*z-index: -2;*/
+	/*margin-top: 80px;*/
+}
+
+.blueLine{
+	background-color: #084468;
+	height: 2px;
+	/*z-index: -2;*/
+	/*margin-top: 80px;*/
+}
+
+.goldLine{
+	background-color: #efa22f;
+	height: 2px;
+	/*z-index: -2;*/
+	/*margin-top: 80px;*/
+}
+
+.oneParaBlock{
+	padding: 2% 20%;
+	text-align: center;
+}
+
+.oneParaBlock p{
+	font-size: 16pt;
+}
+
+.twoCol{
+	padding: 2% 5%;
+}
+
+.center{
+	text-align: center;
+}
+
+.title{
+	padding-top: 2%;
+}
+
+.clear{
+	clear: both;
+}
+
+.carousel-indicators{
+	z-index: 1;
+}
+
+.map{
+	text-align: center;
+}
+
+.aboutBlock{
+	padding: 10% 5%;
+}
+
+.navLinks{
+	position: relative;
+    bottom: 0;
+    padding-top: 3%;
+}
+
+.centerDiv{
+	width: 125px;
+	margin: 0 auto;
+}
+
+.leftDiv{
+	width: 125px;
+	/*margin: 0 auto;*/
+}
+
+.paddingBottom{
+	padding-bottom: 70px;
+}
+
+.calendar{
+	width: 400px;
+	height: 400px;
+}
+
+@media (max-width: 420px) {
+	.calendar{
+		width: 250px;
+		height: 250px;
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.nav{
+		background-image: url('../images/linen286.jpg');
+		background-repeat: no-repeat;
+		font-family: "industry-inc-stencil";
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+		font-size: 18pt;
+	}
+
+	.navLinks{
+		position: static;
+	    padding-top: 0;
+	}
+
+	.topLines{
+		top: 206px;
+		position: fixed;
+		width: 100%;
+		z-index: -1;
+	}
+
+	.slideshow{
+		padding-top: 286px;
+
+	}
+
+
+}
+
+
+
+@media (min-width: 992px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
